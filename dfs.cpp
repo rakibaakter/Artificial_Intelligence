@@ -35,7 +35,7 @@ int main(){
         v.push_back(root);
     }
 
-    cout <<"BFS: ";
+    cout <<"DFS: ";
     DFS(v,0);
 
     return 0;

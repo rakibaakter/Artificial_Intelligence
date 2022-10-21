@@ -32,19 +32,19 @@ void BFS(vector<vector<int>> v)
 int main(){
     int tNode, subNode;
     int temp;
-    
+
   vector<vector<int>> v;
     cout<<"Enter the total number of nodes :";
     cin>>tNode;
-    for(int i=0; i<tNode; i++){ 
+    for(int i=0; i<tNode; i++){
         vector<int>root;
         cout<<"the number of connected node with node"<<i<<" : ";
         cin >> subNode;
-       
+
         for(int j=0; j<subNode; j++){
             cout<<"connected  nodes : ";
             cin>>temp;
-            root.push_back(temp); 
+            root.push_back(temp);
         }
         v.push_back(root);
     }
@@ -54,3 +54,5 @@ int main(){
 
     return 0;
 }
+
+
